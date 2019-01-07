@@ -20,7 +20,7 @@ papers: true
 social: false
 ---
 
-I am excited to announce that I will be joining Georgia Institute of Technology as a first-year Robotics PhD student starting from Fall 2019. I will be working in <a href="http://pwp.gatech.edu/acds/" target="\_blank">Autonomous Control and Decision Systems Lab</a>, leading by <a href="https://scholar.google.com/citations?user=dG9MV7oAAAAJ&amp;hl=en" target="\_blank">Prof. Evangelos Theodorou</a>. Currently, I am actively looking for research intern and visiting opportunities until Sep 2019. 
+I am a first-year Robotics PhD student excited to announce that I will be joining Georgia Institute of Technology as  starting from Spring 2019. I will be working in <a href="http://pwp.gatech.edu/acds/" target="\_blank">Autonomous Control and Decision Systems Lab</a>, leading by <a href="https://scholar.google.com/citations?user=dG9MV7oAAAAJ&amp;hl=en" target="\_blank">Prof. Evangelos Theodorou</a>. Currently, I am actively looking for research intern and visiting opportunities until Sep 2019. 
 
 <!-- My research interest lies broadly under <b>Robot Learning and Control</b>. Specifically, I have researched on Deep (Inverse) Reinforcement Learning, Stochastic Optimal Control, and combing XXX -->
 
@@ -40,4 +40,4 @@ I also worked in
 <a href="https://www.uber.com/info/atg/" target="\_blank">Uber Advanced Technology Group (ATG)</a>, as a Robotics Autonomy/Software Engineer from Sep. 2017 to Dec. 2018, developing algorithms of motion planning and trajectory optimization for self-driving vehicles.
 
 See my 
-<a href="" target="\_blank"><b>full resume</b></a> here.
+<a href="https://ghliu.github.io/web-test/assets/pub/CV-two-page-2019.pdf" target="\_blank"><b>full resume</b></a> here.
