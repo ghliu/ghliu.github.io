@@ -1,0 +1,36 @@
+<div class="papers" href="#publications">
+  <h2>Publications</h2>
+    <table>
+    {% assign paper = site.papers | reverse %}
+    {% for item in paper %}
+      <tr>
+        <td class="image">
+          <img class="one" src="{{ item.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
+          <!-- {{ item.date | date: "%Y %b" }} -->
+        </td>
+        <td class="empty"></td>
+        <td class="description">
+            <h4>{{ item.title }}</h4>
+            <h5>
+            {% assign last_index = item.authors.size %}
+            {% assign last_last_index = last_index | minus:1 %}
+            {% for author in item.authors %}
+              {% if author == 'Guan-Horng Liu' or author == 'Guan-Horng Liu*' %}<span class="me"><b>{{author}}</b></span>{%else%}{{author}}{% endif %}{% if forloop.index != last_index %},{% endif %}{% if forloop.index == last_last_index %} and{% endif %}
+            {% endfor %}
+            <br>
+            <span class="venue"><i>{{ item.venue }}</i></span>
+            {% if item.venue_shortcut %}<span class="venue"> (<b>{{ item.venue_shortcut }}</b>)</span>{% endif %}<span class="venue">, {{ item.date | date: "%b %Y" }}</span>{% if item.award %}<span class="award"> <b>({{ item.award }})</b></span>{% endif %}
+            <br>
+            {% if item.pdf_link %}<span class="supplementary"><a href="{{ item.pdf_link }}" target="_blank">PDF |</a></span>{% endif %}
+            {% if item.arxiv_link %}<span class="supplementary"><a href="{{ item.arxiv_link }}" target="_blank">arXiv preprint |</a></span>{% endif %}
+            {% if item.video_link %}<span class="supplementary"><a href="{{ item.video_link }}" target="_blank">video |</a></span>{% endif %}
+            {% if item.project_web_link %}<span class="supplementary"><a href="{{ item.project_web_link }}" target="_blank">project |</a></span>{% endif %}
+            {% if item.code_link %}<span class="supplementary"><a href="{{ item.code_link }}" target="_blank">code |</a></span>{% endif %}
+            </h5>
+        </td>
+      </tr>
+    {% endfor %}
+    </table>
+</div>
+
+

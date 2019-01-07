@@ -2,11 +2,12 @@
     img {
         box-shadow: 0 0 5px $grey-color;
         width: 100%;
+        margin-left: 15px;
     }
 }
 .address {
     font-family: monospace;
-
+    margin-left: 15px;
     p { margin: 0; }
 }
 
@@ -20,20 +21,89 @@
         margin-top: 0;
         margin-bottom: 10px;
     }
+
     table {
         border-collapse: collapse;
         width: 100%;
 
-        .date { width: 19%; }
-        .announcement { width: 81%; }
+        .date { width: 15%; }
+        .announcement { width: 85%; }
 
-        tr { text-align: left; }
+        tr { text-align: justify; }
         td {
             padding: 6px 0;
             vertical-align: top;
             border: none;
         }
     }
+}
+
+.papers {
+    border-top: 1px solid $grey-color-light;
+    margin-top: 30px;
+    padding-top: 20px;
+
+    h2 {
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    h5 {
+        margin-top: 0;
+    }
+    h4 {
+        font-weight: bold;
+        margin-top: 0;
+    }
+    h3 {
+        font-weight: bold;
+        margin-top: 0;
+    }
+    a {
+        color: #28A;
+        font-weight: bold;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+
+        .image { 
+            width: 30%; 
+            img { width: 100%; }
+        }
+        .empty { width: 2%; }
+        .description { 
+            width: 68%;
+            vertical-align: top;
+        }
+
+        tr { text-align: left}
+        td {
+            padding: 6px 0;
+            vertical-align: top;
+            border: none;
+        }
+    }
+}
+
+.supplementary {
+    color: #28A;
+    font-weight: bold;
+}
+
+.award {
+    color: #F00;
+    font-weight: bold;
+}
+
+.me {
+    color: #830;
+    font-weight: bold;
+}
+
+.venue {
+    color: #462;
 }
 
 .social {

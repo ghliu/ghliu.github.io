@@ -1,37 +1,37 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-name: Your Name
-email: you@example.com
-description: > # this means to ignore newlines until "url:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+name: Guan-Horng Liu
+email: guanhorng.liu@gmail.com
+description: ""
+url:  "http://ghliu.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+last_updated: Jan 2019 # leave blank if you don't want to display last updated
 
-url:  # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/
-last_updated: # leave blank if you don't want to display last updated
+# -----------------------------------------------------------------------------
+# Research Interests
+# -----------------------------------------------------------------------------
+research_interests:
+  - topic: 'Deep (Reinforcement) Learning and Optimal Control under Uncertainty/Stochastic System'
+  - topic: 'Deep Learning Theory'
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username: # your GitHub user name
+github_username: ghliu
 twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+linkedin_username: guanhorngliu # your LinkedIn user name
+scholar_userid: 2Dt0VJ4AAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note: # You can even add a little note about which of these is the best way to reach you.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: al-folio
-blog_description: a simple whitespace theme for academics
+blog_name: '???'
+blog_description: To be updated soon
 
 # Pagination
 paginate: 4
@@ -60,11 +60,18 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
+  papers:
+    defaults:
+      layout: post
+    output: true
+    permalink: /papers/:path/
   projects:
     output: true
     permalink: /projects/:path/
 
 news_limit: 5
+
+
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
