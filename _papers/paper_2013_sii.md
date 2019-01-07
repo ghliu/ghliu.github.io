@@ -6,7 +6,7 @@ venue:   IEEE/SICE International Symposium on System Integration
 venue_shortcut: SII
 award: Best Paper Award
 
-pdf_link: 'https://ghliu.github.io/web-test/assets/pub/2013SII.pdf'
+pdf_link: 'https://ghliu.github.io/assets/pub/2013SII.pdf'
 arxiv_link: 
 video_link: 
 project_web_link:

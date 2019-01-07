@@ -42,4 +42,4 @@ I also worked in
 <a href="https://www.uber.com/info/atg/" target="\_blank">Uber Advanced Technology Group (ATG)</a>, as a Robotics Autonomy/Software Engineer from Sep. 2017 to Dec. 2018, developing algorithms of motion planning and trajectory optimization for self-driving vehicles.
 
 See my 
-<a href="https://ghliu.github.io/web-test/assets/pub/CV-two-page-2019.pdf" target="\_blank"><b>full resume</b></a> here.
+<a href="https://ghliu.github.io/assets/pub/CV-two-page-2019.pdf" target="\_blank"><b>full resume</b></a> here.

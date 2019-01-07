@@ -5,7 +5,7 @@ name: Guan-Horng Liu
 email: guanhorng.liu@gmail.com
 description: ""
 url:  "" # the base hostname & protocol for your site
-baseurl: "/web-test" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 last_updated: Jan 2019 # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------

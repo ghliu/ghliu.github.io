@@ -6,7 +6,7 @@ venue:   32-nd Annual Conference of the Robotics Society of Japan
 venue_shortcut: RSJ
 award:
 
-pdf_link: 'https://ghliu.github.io/web-test/assets/pub/2014RSJ.pdf'
+pdf_link: 'https://ghliu.github.io/assets/pub/2014RSJ.pdf'
 arxiv_link: 
 video_link: 
 project_web_link:

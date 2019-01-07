@@ -6,7 +6,7 @@ venue:   1st Annual Conference on Robot Learning
 venue_shortcut: CoRL
 award:
 
-pdf_link:   'https://ghliu.github.io/web-test/assets/pub/2017CoRL.pdf'
+pdf_link:   'https://ghliu.github.io/assets/pub/2017CoRL.pdf'
 arxiv_link: 'https://arxiv.org/abs/1705.10422'
 video_link: 'https://www.youtube.com/watch?v=QAK2lcXjNZc'
 project_web_link:

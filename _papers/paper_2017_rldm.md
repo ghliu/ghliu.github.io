@@ -6,7 +6,7 @@ venue:   3rd Multi-disciplinary Conference on Reinforcement Learning and Decisio
 venue_shortcut: RLDM
 award:
 
-pdf_link:   'https://ghliu.github.io/web-test/assets/pub/2017RLDM.pdf'
+pdf_link:   'https://ghliu.github.io/assets/pub/2017RLDM.pdf'
 arxiv_link: 
 video_link: 
 project_web_link:
