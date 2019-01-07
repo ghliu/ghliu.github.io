@@ -20,20 +20,22 @@ papers: true
 social: false
 ---
 
-I am a first-year Robotics PhD student excited to announce that I will be joining Georgia Institute of Technology as  starting from Spring 2019. I will be working in <a href="http://pwp.gatech.edu/acds/" target="\_blank">Autonomous Control and Decision Systems Lab</a>, leading by <a href="https://scholar.google.com/citations?user=dG9MV7oAAAAJ&amp;hl=en" target="\_blank">Prof. Evangelos Theodorou</a>. Currently, I am actively looking for research intern and visiting opportunities until Sep 2019. 
+<b>I currently am looking for long-term research intern or visiting from Jan to Sep, 2019.</b> I am a first-year Robotics PhD student in Georgia Institute of Technology, supervised under <a href="https://scholar.google.com/citations?user=dG9MV7oAAAAJ&amp;hl=en" target="\_blank">Professor Evangelos Theodorou</a> in <a href="http://pwp.gatech.edu/acds/" target="\_blank">Autonomous Control and Decision Systems Laboratory</a>. 
 
 <!-- My research interest lies broadly under <b>Robot Learning and Control</b>. Specifically, I have researched on Deep (Inverse) Reinforcement Learning, Stochastic Optimal Control, and combing XXX -->
 
-Before joining GaTech, I finished my Master degree at 
+Before joining Georgia Tech, I finished my master degree in Robotics at 
 <a href="http://ri.cmu.edu/" target="\_blank">Robotics Institute</a>, 
-<a href="http://www.cmu.edu/" target="\_blank">Carnegie Mellon University</a>, supervised under 
+<a href="http://www.cmu.edu/" target="\_blank">Carnegie Mellon University</a>. I am supervised under 
 <a href="http://ri.cmu.edu/ri-faculty/george-a-kantor/" target="\_blank">Mr. George Kantor</a>
-with valuable advices from 
+, while receiving valuable advices from 
 <a href="https://www.cs.cmu.edu/~mmv/" target="\_blank">Prof. Manuela Veloso</a>
  and 
 <a href="https://devinschwab.com/" target="\_blank">Devin Schwab</a>. 
-I also owned a bachelor degree in MechE at National Taiwan University, with a one-year research exchange at 
-Tokyo Institute of Technology.
+I also owned a bachelor degree in MechE at 
+<a href="http://www.ntu.edu.tw/english/index.html" target="\_blank">National Taiwan University</a>
+, with a one-year research exchange at
+<a href="https://www.titech.ac.jp/english/" target="\_blank">Tokyo Institute of Technology</a>.
 <!-- My research here relates to off-road autonomous navigation for all-terrain vehicle application. Specifically, I worked on deep reinforcement learning, deep imitation learning, and model-predictive planning as my master thesis.  -->
 
 I also worked in 
