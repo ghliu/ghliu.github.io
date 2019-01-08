@@ -7,7 +7,7 @@
 
       <div class="img_row">
         {% for item in projects limit:3 offset:offset %}
-          <img class="col one left" src="{{ item.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="" title="example image"/>
+          <img class="col one left" src="{{ item.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt=""/>
         {% endfor %}
       </div>
 
