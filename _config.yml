@@ -66,6 +66,8 @@ collections:
     output: true
     permalink: /papers/:path/
   projects:
+    defaults:
+      layout: post
     output: true
     permalink: /projects/:path/
 

@@ -1,0 +1,29 @@
+<div class="projects" href="#projects">
+  <h2>Projects</h2> 
+    {% assign projects = site.projects | reverse %}
+    {% assign rows = projects.size | divided_by: 3.0 | ceil %}
+    {% for i in (1..rows) %}
+      {% assign offset = forloop.index0 | times: 3 %}
+
+      <div class="img_row">
+        {% for item in projects limit:3 offset:offset %}
+          <img class="col one left" src="{{ item.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="" title="example image"/>
+        {% endfor %}
+      </div>
+
+      {% for item in projects limit:3 offset:offset %}
+        <div class="col one left caption">
+            <h4 align="center" style="color:#666">{{ item.title }}</h4>
+            <h5 style="color:#666">
+              <i>{{ item.subtitle }}</i>
+              <!-- <br> -->
+              ({% if item.pdf_link %}<a href="{{ item.pdf_link }}" target="_blank">PDF</a>{% endif %}{% if item.poster_link %}<span class="supplementary"><a href="{{ item.poster_link }}" target="_blank">, Poster</a></span>{% endif %}{% if item.video_link %}<span class="supplementary"><a href="{{ item.video_link }}" target="_blank">, video</a></span>{% endif %}{% if item.project_web_link %}<span class="supplementary"><a href="{{ item.project_web_link }}" target="_blank">, project</a></span>{% endif %}{% if item.code_link %}<span class="supplementary"><a href="{{ item.code_link }}" target="_blank">, code</a></span>{% endif %})
+            </h5>
+            {{ item.content }}
+        </div>
+      {% endfor %}
+    {% endfor %}
+
+</div>
+
+

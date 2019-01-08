@@ -27,6 +27,8 @@
             {% if item.project_web_link %}<span class="supplementary"><a href="{{ item.project_web_link }}" target="_blank">project |</a></span>{% endif %}
             {% if item.code_link %}<span class="supplementary"><a href="{{ item.code_link }}" target="_blank">code |</a></span>{% endif %}
             </h5>
+            <br>
+            <h5>{{ item.content }}</h5>
         </td>
       </tr>
     {% endfor %}

@@ -11,12 +11,13 @@ description: >
 
 profile:
   align: right
-  image: output2.jpg
+  image: output3.jpg
   address: 
 
 research_interest: true
 news: true
 papers: true
+projects: true
 social: false
 ---
 

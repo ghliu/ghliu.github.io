@@ -7,7 +7,7 @@
 }
 .address {
     font-family: monospace;
-    margin-left: 15px;
+    margin-left: 0px;
     p { margin: 0; }
 }
 
@@ -15,6 +15,10 @@
     border-top: 1px solid $grey-color-light;
     margin-top: 30px;
     padding-top: 20px;
+
+    ul {
+        margin-bottom:5px;
+    }
 
     h2 {
         font-weight: bold;
@@ -25,8 +29,9 @@
     table {
         border-collapse: collapse;
         width: 100%;
+        margin-left: 15px;
 
-        .date { width: 15%; }
+        .date { width: 12%; }
         .announcement { width: 85%; }
 
         tr { text-align: justify; }
@@ -75,6 +80,55 @@
         .empty { width: 2%; }
         .description { 
             width: 68%;
+            vertical-align: top;
+        }
+
+        tr { text-align: left}
+        td {
+            padding: 6px 0;
+            vertical-align: top;
+            border: none;
+        }
+    }
+}
+
+.projects {
+    border-top: 1px solid $grey-color-light;
+    margin-top: 30px;
+    padding-top: 20px;
+
+    h2 {
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    h5 {
+        margin-top: 0;
+    }
+    h4 {
+        font-weight: bold;
+        margin-top: 0;
+    }
+    h3 {
+        font-weight: bold;
+        margin-top: 0;
+    }
+    a {
+        color: #28A;
+        font-weight: bold;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+
+        .image { 
+            width: 20%; 
+            img { width: 100%; }
+        }
+        .empty { width: 0%; }
+        .description { 
+            width: 30%;
             vertical-align: top;
         }
 
