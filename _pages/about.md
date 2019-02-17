@@ -21,7 +21,7 @@ projects: true
 social: false
 ---
 
-<b>I am currently looking for long-term research internship or visiting position from Jan to Sep, 2019.</b> I am a first-year Robotics PhD student in Georgia Institute of Technology, supervised under <a href="https://scholar.google.com/citations?user=dG9MV7oAAAAJ&amp;hl=en" target="\_blank">Professor Evangelos Theodorou</a> in <a href="http://pwp.gatech.edu/acds/" target="\_blank">Autonomous Control and Decision Systems Laboratory</a>. 
+I am a first-year Robotics PhD student in Georgia Institute of Technology, supervised under <a href="https://scholar.google.com/citations?user=dG9MV7oAAAAJ&amp;hl=en" target="\_blank">Professor Evangelos Theodorou</a> in <a href="http://pwp.gatech.edu/acds/" target="\_blank">Autonomous Control and Decision Systems Laboratory</a>. 
 
 <!-- My research interest lies broadly under <b>Robot Learning and Control</b>. Specifically, I have researched on Deep (Inverse) Reinforcement Learning, Stochastic Optimal Control, and combing XXX -->
 
