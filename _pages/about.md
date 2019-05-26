@@ -1,18 +1,17 @@
 ---
 layout: about
 permalink: /
-title: <strong>Guan-Horng</strong> (William) <strong>Liu</strong>
+title: <strong>Hui </strong> Wang (王慧 in Chinese)</strong>
 description: >
-  <p> ghliu [at] gatech [dot] edu | 
-      <a href="https://scholar.google.com/citations?user=2Dt0VJ4AAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i> Google Scholar</a> |   
-      <a href="https://www.linkedin.com/in/guanhorngliu" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a> |
-      <a href="https://github.com/ghliu" target="_blank" title="GitHub"><i class="fab fa-github"></i> ghliu</a> 
+  <p> hwang [at] geometrie [dot] tuwien [dot] ac [dot] at| 
+      <a href="https://www.researchgate.net/profile/Wang_Hui35" target="_blank" title="GitHub"><i class="fab fa-github"></i> Research Gate</a> |  
+      <a href="https://scholar.google.com/citations?user=o-fHR5oAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i> Google Scholar</a> 
   </p>
 
 profile:
   align: right
-  image: output3.jpg
-  address: 
+  image: fig.jpg
+  address: TU Wien / Wiedner Hauptstrasse 8-10/104, A-1040 Vienna, Austria
 
 research_interest: true
 news: true
