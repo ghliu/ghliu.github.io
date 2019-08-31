@@ -6,14 +6,14 @@ email: guanhorng.liu@gmail.com
 description: ""
 url:  "" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
-last_updated: Jan 2019 # leave blank if you don't want to display last updated
+last_updated: Aug 2019 # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
 # Research Interests
 # -----------------------------------------------------------------------------
 research_interests:
-  - topic: 'Deep (Reinforcement) Learning and Optimal Control under Uncertainty/Stochastic System'
   - topic: 'Deep Learning Theory'
+  - topic: 'Stochastic Optimal Control'
 
 # -----------------------------------------------------------------------------
 # Social integration
