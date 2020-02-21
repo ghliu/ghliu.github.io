@@ -1,9 +1,7 @@
 ---
 layout: post
-date: 2018-03-22 15:59:00-0400
+date: 2018-12-22 15:59:00-0400
 inline: true
 ---
 
-My interview with Taiwan media is released. Thanks 
-<a href="https://buzzorange.com/techorange/2018/03/12/uber-taiwan-engineers/" target="\_blank">TechOrange</a> and
-<a href="https://udn.com/news/story/6811/3023122" target="\_blank">United Daily News</a>!
+I give an invited talk of self-driving tech in National Taiwan University MechE Department.
