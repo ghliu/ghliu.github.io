@@ -43,4 +43,4 @@ I am very fortunate to work in
 developing motion planning and trajectory optimization algorithm for self-driving vehicles.
 
 See my
-<a href="https://ghliu.github.io/assets/pub/CV-two-page-2019.pdf" target="\_blank"><b>full resume</b></a> here.
+<a href="https://ghliu.github.io/assets/pub/CV-2020.pdf" target="\_blank"><b>full resume</b></a> here.
