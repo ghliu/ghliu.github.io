@@ -6,11 +6,15 @@
 
 p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
   color: var(--global-text-color);
-  line-height: 1.45;
+  line-height: 1.5;
+}
+
+div {
+  font-size: 1.03rem;
 }
 
 h6 {
-  font-size: 1.05rem;
+  font-size: 1.06rem;
 }
 
 a, table.table a {
@@ -173,12 +177,15 @@ a, table.table a {
 // News
 
 .news table td {
-  font-size: 1rem;
+  font-size: 1.05rem;
   color: var(--global-text-color);
+  padding-bottom: 0.2em; /* bottom margin of the table */
 }
 
 .news table th {
+  font-size: 1.05rem;
   color: var(--global-text-color);
+  padding-bottom: 0.2em; /* bottom margin of the table */
 }
 
 // Social (bottom)
@@ -389,7 +396,7 @@ footer.sticky-bottom {
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
-        font-size: 1.2rem; /* This is the badge font size */
+        font-size: 1.25rem; /* This is the badge font size */
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
@@ -405,7 +412,7 @@ footer.sticky-bottom {
           }
         }
         .award {
-          font-size: 0.88rem;
+          font-size: 0.9rem; /* This is the red award () below badge */
           margin-top: 0.25rem;
           /* text-align: center; */
           /* padding-left: 1rem; */
@@ -419,7 +426,7 @@ footer.sticky-bottom {
         font-size: 1.15rem;
       }
       .author {
-        font-size: 1.05rem;
+        font-size: 1.0rem;
         a {
           border-bottom: 1px dashed var(--global-theme-color);
           &:hover {
