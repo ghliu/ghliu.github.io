@@ -2,23 +2,47 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: >
+  <h6>Machine Learning PhD @ Georgia Tech 🚀</h6><br>
+
+publications_test: true
+years: 1950
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address:
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+all_publications: true # includes all papers
+
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a second-year Machine Learning PhD in Georgia Tech, working with [Dr. Evangelos Theodorou](https://scholar.google.com/citations?user=dG9MV7oAAAAJ&hl=en) in [Autonomous Control and Decision Systems (ACDS)](https://sites.gatech.edu/acds/) Lab.
+My research aims to answer <i><u>how the dynamical system perspectives can provide a new paradigm connecting <strong>Deep Learning</strong> to modern <strong>Optimal Control theory</strong></u></i>,
+where the latter includes a broad methodologies <em>e.g.</em> trajectory optimization, and stochastic processes, second-order methods, and etc.
+We believe this principle has the potential to alleviates the current ad-hock design process
+for principled algorithmic design, characterization of the learning process, and even direct architectures optimization.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+I finished my M.S. in Robotics at Carnegie Mellon University, working with Dr. George Kantor on off-road autonomous navigation and deep reinforcement learning. I also owned a B.S. in MechE at National Taiwan University, with an one-year research exchange at Tokyo Institute of Technology.
+
+I am very fortunate to work in Uber Advanced Technology Group as a Robotics Autonomy Engineer before joining Georgia Tech, developing motion planning and trajectory optimization algorithm for self-driving vehicles.
+
+<!-- TODO update resume -->
+<!-- See my full resume here. -->
+
+<strong>Contact: </strong>
+      ghliu [at] gatech [dot] edu
+<br>
+<strong>Link: </strong>
+      <a href="https://scholar.google.com/citations?user=2Dt0VJ4AAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i> Google Scholar</a>
+      <strong> | </strong>
+      <a href="https://www.linkedin.com/in/guanhorngliu" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <strong> | </strong>
+      <a href="https://github.com/ghliu" target="_blank" title="GitHub"><i class="fab fa-github"></i> ghliu</a>
+      <strong> | </strong>
+      <a href="https://github.com/ghliu" target="_blank" title="GitHub"><i class="fab fa-twitter"></i> @GHLiu9138</a>

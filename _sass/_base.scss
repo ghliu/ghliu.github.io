@@ -6,6 +6,11 @@
 
 p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
   color: var(--global-text-color);
+  line-height: 1.45;
+}
+
+h6 {
+  font-size: 1.05rem;
 }
 
 a, table.table a {
@@ -367,7 +372,7 @@ footer.sticky-bottom {
     }
   }
   h2.year {
-    color: $grey-color-light;
+    color: $grey-color-light2;
     border-top: 1px solid $grey-color-light;
     padding-top: 1rem;
     margin-top: 2rem;
@@ -384,11 +389,14 @@ footer.sticky-bottom {
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
+        font-size: 1.2rem; /* This is the badge font size */
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
           padding-left: 1rem;
           padding-right: 1rem;
+          padding-top: 0.3em;
+          padding-bottom: 0.3rem;
           a {
             color: white;
             &:hover {
@@ -397,14 +405,21 @@ footer.sticky-bottom {
           }
         }
         .award {
-          color: var(--global-theme-color) !important;
-          border: 1px solid var(--global-theme-color);
+          font-size: 0.88rem;
+          margin-top: 0.25rem;
+          /* text-align: center; */
+          /* padding-left: 1rem; */
+          /* padding-right: 1rem; */
+          color: $red-color-dark;
+          font-weight: bold;
         }
       }
       .title {
         font-weight: bolder;
+        font-size: 1.15rem;
       }
       .author {
+        font-size: 1.05rem;
         a {
           border-bottom: 1px dashed var(--global-theme-color);
           &:hover {
@@ -415,16 +430,33 @@ footer.sticky-bottom {
         > em {
           border-bottom: 1px solid;
           font-style: normal;
+          /* color: $custom-color-green; */
+          color: $blue-color-dark;
+          font-weight: bolder;
         }
       }
+      .periodical{
+        color: $custom-color-blue;
+        > em {
+          color: $custom-color-blue;
+        }
+      }
+      .awardNote{
+        color: $red-color-dark;
+        font-weight: bolder;
+        font-size: 0.9rem;
+      }
       .links {
+        font-size: 1.05rem;
         a.btn {
+          text-transform: lowercase;
+          font-size: 0.8rem;
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
+          padding-top: 0.1rem;
+          padding-bottom: 0.1rem;
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
@@ -432,7 +464,7 @@ footer.sticky-bottom {
         }
       }
       .hidden {
-        font-size: 0.875rem;
+        font-size: 0.9rem;
         max-height: 0px;
         overflow: hidden;
         text-align: justify;
@@ -464,6 +496,12 @@ footer.sticky-bottom {
         border: dashed 1px var(--global-bg-color);
       }
       div.abstract.hidden.open {
+        border-color: var(--global-text-color);
+      }
+      div.cite.hidden {
+        border: dashed 1px var(--global-bg-color);
+      }
+      div.cite.hidden.open {
         border-color: var(--global-text-color);
       }
     }
