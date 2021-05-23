@@ -20,12 +20,10 @@ all_publications: true # includes all papers
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hi, I am Guan-Horng Liu (I go by <b><i>&quot;Guan&quot;</i></b> ), a second-year Machine Learning PhD in Georgia Tech, advised by
+Hi, I am Guan-Horng Liu (I go by <b><i>&quot;Guan&quot;</i></b> ), a second-year Machine Learning PhD in Georgia Tech, advised by Dr.
 <!-- [Dr. Evangelos Theodorou](https://scholar.google.com/citations?user=dG9MV7oAAAAJ&hl=en)  -->
-<a href="https://scholar.google.com/citations?user=dG9MV7oAAAAJ&hl=en" target="_blank">Dr. Evangelos Theodorou</a>
-in
-<a href="https://sites.gatech.edu/acds/" target="_blank">Autonomous Control and Decision Systems (ACDS)</a>
-Lab.
+<a href="https://scholar.google.com/citations?user=dG9MV7oAAAAJ&hl=en" target="_blank">Evangelos Theodorou</a>.
+<!-- <a href="https://sites.gatech.edu/acds/" target="_blank">Autonomous Control and Decision Systems (ACDS)</a> -->
 My research aims to answer
 <u>
     how the dynamical system perspective can provide a new paradigm connecting
@@ -33,18 +31,23 @@ My research aims to answer
     <strong>Optimal Control theory</strong></u>,
 where the latter includes a broad methodologies, <i>e.g.</i> stochastic process, game theory, classical mechanics, and information duality.
 We believe this principle has the potential to alleviates the current ad-hoc design process of training deep nets,
-allowing principled algorithmic design, better characterization of the training, and even direct architecture optimization.
+allowing principled algorithmic design, better characterization of the training, and even architecture optimization.
 
 
-I finished my M.S. in Robotics at Carnegie Mellon University, working with Dr. George Kantor on off-road autonomous navigation and deep reinforcement learning. I also owned a B.S. in MechE at National Taiwan University, with an one-year research exchange at Tokyo Institute of Technology.
+I finished my M.S. in Robotics at Carnegie Mellon University, working with
+<a href="https://www.ri.cmu.edu/ri-faculty/george-a-kantor/" target="_blank">George Kantor</a>
+and
+<a href="http://www.cs.cmu.edu/~mmv/" target="_blank">Manuela M. Veloso</a>
+on off-road autonomous navigation and deep reinforcement learning. I also owned a B.S. in MechE at National Taiwan University, with an one-year research exchange at Tokyo Institute of Technology.
 
-I am very fortunate to work in Uber Advanced Technology Group as a Robotics Autonomy Engineer before joining Georgia Tech, developing motion planning and trajectory optimization algorithm for self-driving vehicles.
+I worked in Uber Advanced Technology Group as a Robotics Autonomy Engineer for 1.5 years before joining Georgia Tech, developing motion planning and trajectory optimization algorithm for self-driving vehicles under the team led by
+<a href="https://www.linkedin.com/in/tony-stentz-732322b6/" target="_blank">Tony Stentz</a>.
 
 See my
 <b>
     <a href="{{ site.resume_path | prepend: 'https://ghliu.github.io/assets/pdf/' }}" target="_blank">full CV</a>
 </b>
-here (updated May 2021).
+here (updated on May 2021).
 
 <!-- href="{{ site.resume_path | prepend: 'https://ghliu.github.io/assets/pdf/' }} -->
 <!-- TODO update resume -->
