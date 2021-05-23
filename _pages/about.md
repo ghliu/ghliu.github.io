@@ -28,13 +28,12 @@ in
 Lab.
 My research aims to answer
 <u>
-    how the dynamical system perspectives can provide a new paradigm connecting
+    how the dynamical system perspective can provide a new paradigm connecting
     <strong>Deep Learning</strong> to
-    <strong>Optimal Control theory</strong>
-</u>,
-where the latter includes a broad methodologies <i>e.g.</i> stochastic processes, game theory, classical mechanics, and information duality.
-We believe this principle has the potential to alleviates the ad-hock design process of deep learning
-for more principled algorithmic design, characterization of the learning process, and even direct architectures optimization.
+    <strong>Optimal Control theory</strong></u>,
+where the latter includes a broad methodologies, <i>e.g.</i> stochastic process, game theory, classical mechanics, and information duality.
+We believe this principle has the potential to alleviates the current ad-hoc design process of training deep nets,
+allowing principled algorithmic design, better characterization of the training, and even direct architecture optimization.
 
 
 I finished my M.S. in Robotics at Carnegie Mellon University, working with Dr. George Kantor on off-road autonomous navigation and deep reinforcement learning. I also owned a B.S. in MechE at National Taiwan University, with an one-year research exchange at Tokyo Institute of Technology.
@@ -61,5 +60,5 @@ here (updated May 2021).
       <strong> | </strong>
       <a href="https://github.com/ghliu" target="_blank" title="GitHub"><i class="fab fa-github"></i> ghliu</a>
       <strong> | </strong>
-      <a href="https://github.com/ghliu" target="_blank" title="GitHub"><i class="fab fa-twitter"></i> @GHLiu9138</a>
+      <a href="https://twitter.com/GHLiu9138" target="_blank" title="GitHub"><i class="fab fa-twitter"></i> @GHLiu9138</a>
 <br><br>

@@ -8,7 +8,7 @@
     <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
     {% else %}
     <abbr class="badge">{{entry.abbr}}</abbr>
-    <div class="award">{{entry.award}}</div>
+    <!-- <div class="award">{{entry.award}}</div> -->
     {% endif %}
   {% endif %}
   </div>
@@ -69,7 +69,9 @@
       </div>
 
       <div class="periodical">
-      {% if entry.type == "article" %}
+      {% if entry.avenue_overwrite %}
+        <em>{{entry.avenue_overwrite}}</em>,
+      {% elsif entry.type == "article" %}
         <em>{{entry.journal}}</em>,
       {% elsif entry.type == "inproceedings" %}
         <em>{{entry.booktitle}}</em>,
