@@ -8,7 +8,7 @@
         <tr>
           <!-- format for having days in the Upadtes -->
           <!-- <th scope="row", style="width:7vw">{{ item.date | date: "%b %-d, %Y" }}</th> -->
-          <th scope="row", style="width:6vw">{{ item.date | date: "%b, %Y" }}</th>
+          <th scope="row", style="width:7rem">{{ item.date | date: "%b, %Y" }}</th>
           <td>
             {% if item.inline %}
               {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
