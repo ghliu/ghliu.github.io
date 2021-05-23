@@ -20,7 +20,7 @@ all_publications: true # includes all papers
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hi, I am Guan-Horng Liu (I go by <b><i>&quot;Guan&quot;</i></b> ), a second-year Machine Learning PhD in Georgia Tech, advised by Dr.
+Hi, I am Guan-Horng Liu (I go by <b><i>&quot;Guan&quot;</i></b> ), a second-year Machine Learning PhD in Georgia Tech advised by Dr.
 <!-- [Dr. Evangelos Theodorou](https://scholar.google.com/citations?user=dG9MV7oAAAAJ&hl=en)  -->
 <a href="https://scholar.google.com/citations?user=dG9MV7oAAAAJ&hl=en" target="_blank">Evangelos Theodorou</a>.
 <!-- <a href="https://sites.gatech.edu/acds/" target="_blank">Autonomous Control and Decision Systems (ACDS)</a> -->
@@ -29,8 +29,8 @@ My research aims to answer
     how the dynamical system perspective can provide a new paradigm connecting
     <strong>Deep Learning</strong> to
     <strong>Optimal Control theory</strong></u>,
-where the latter includes a broad methodologies, <i>e.g.</i> stochastic process, game theory, classical mechanics, and information duality.
-We believe this principle has the potential to alleviates the current ad-hoc design process of training deep nets,
+where the latter includes a broad class of methodologies, e.g. stochastic process, game theory, classical mechanics, and information duality.
+We believe this principle has the potential to alleviate the current ad-hoc design process of training deep nets,
 allowing principled algorithmic design, better characterization of the training, and even architecture optimization.
 
 
