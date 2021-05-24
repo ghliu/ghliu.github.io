@@ -40,7 +40,7 @@ and
 <a href="http://www.cs.cmu.edu/~mmv/" target="_blank">Manuela M. Veloso</a>
 on off-road autonomous navigation and deep reinforcement learning. I also owned a B.S. in MechE at National Taiwan University, with an one-year research exchange at Tokyo Institute of Technology.
 
-I worked in Uber Advanced Technology Group as a Robotics Autonomy Engineer for 1.5 years before joining Georgia Tech, developing motion planning and trajectory optimization algorithm for self-driving vehicles under the team led by
+I worked in Uber Advanced Technology Group as a Robotics Autonomy Engineer for 1.5 years before joining Georgia Tech, developing motion planning algorithm for self-driving vehicles under the team led by
 <a href="https://www.linkedin.com/in/tony-stentz-732322b6/" target="_blank">Tony Stentz</a>.
 
 See my
