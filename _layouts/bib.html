@@ -150,14 +150,14 @@
 
     <div class="cite hidden">
       <p>&#64;{{ entry.type }}&#123;{{ entry.key }},<br>
-         &emsp; title=&#123;{{ entry.title }}&#125;,<br>
-         &emsp; author=&#123;{{ entry.author }}&#125;,<br>
+         &nbsp; title=&#123;{{ entry.title }}&#125;,<br>
+         &nbsp; author=&#123;{{ entry.author }}&#125;,<br>
          {% if entry.type == "article" %}
-            &emsp; journal=&#123;{{ entry.journal }}&#125;,<br>
+            &nbsp; journal=&#123;{{ entry.journal }}&#125;,<br>
          {% elsif entry.type == "inproceedings" %}
-            &emsp; booktitle=&#123;{{ entry.booktitle }}&#125;,<br>
+            &nbsp; booktitle=&#123;{{ entry.booktitle }}&#125;,<br>
          {% endif %}
-         &emsp; year=&#123;{{ entry.year }}&#125;,<br>
+         &nbsp; year=&#123;{{ entry.year }}&#125;,<br>
          &#125;
       </p>
     </div>
