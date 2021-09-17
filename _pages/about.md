@@ -20,7 +20,7 @@ all_publications: true # includes all papers
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hi, I am Guan-Horng Liu (I go by <b><i>&quot;Guan&quot;</i></b> ), a second-year Machine Learning PhD in Georgia Tech advised by Dr.
+Hi, I am Guan-Horng Liu (I go by <b><i>&quot;Guan&quot;</i></b> ), a third-year Machine Learning PhD in Georgia Tech advised by Dr.
 <!-- [Dr. Evangelos Theodorou](https://scholar.google.com/citations?user=dG9MV7oAAAAJ&hl=en)  -->
 <a href="https://scholar.google.com/citations?user=dG9MV7oAAAAJ&hl=en" target="_blank">Evangelos Theodorou</a>.
 <!-- <a href="https://sites.gatech.edu/acds/" target="_blank">Autonomous Control and Decision Systems (ACDS)</a> -->
