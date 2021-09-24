@@ -20,18 +20,19 @@ all_publications: true # includes all papers
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hi, I am Guan-Horng Liu (I go by <b><i>&quot;Guan&quot;</i></b> ), a third-year Machine Learning PhD in Georgia Tech advised by Dr.
+Hi, I am Guan-Horng Liu (I go by <b><i>&quot;Guan&quot;</i></b> ), a third-year Machine Learning PhD in Georgia Tech advised by
 <!-- [Dr. Evangelos Theodorou](https://scholar.google.com/citations?user=dG9MV7oAAAAJ&hl=en)  -->
-<a href="https://scholar.google.com/citations?user=dG9MV7oAAAAJ&hl=en" target="_blank">Evangelos Theodorou</a>.
+<a href="https://scholar.google.com/citations?user=dG9MV7oAAAAJ&hl=en" target="_blank">Evangelos A. Theodorou</a>.
 <!-- <a href="https://sites.gatech.edu/acds/" target="_blank">Autonomous Control and Decision Systems (ACDS)</a> -->
-My research aims to answer
+
+
+My research aims to
 <u>
-    how the dynamical system perspective can provide a new paradigm connecting
-    <strong>Deep Learning</strong> to
-    <strong>Optimal Control theory</strong></u>,
-where the latter includes a broad class of methodologies, e.g. stochastic process, game theory, classical mechanics, and information duality.
-We believe this principle has the potential to alleviate the current ad-hoc design process of training deep nets,
-allowing principled algorithmic design, better characterization of the training, and even architecture optimization.
+    develop a new paradigm of
+    <strong>Deep Learning Optimization</strong> grounded on
+    <strong>Optimal Control Theory</strong></u>.
+This mathematical framework enables rich analysis from stochastic process, game theory, optimal transport, and information duality.
+It also facilitates principled algorithmic design, better characterization of the training process, and architecture optimization.
 
 
 I finished my M.S. in Robotics at Carnegie Mellon University, working with
