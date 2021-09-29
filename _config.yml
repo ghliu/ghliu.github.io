@@ -20,7 +20,7 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # -----------------------------------------------------------------------------
 
 publication_years: [2021, 2020, 2019, 2017, 2014, 2013]
-resume_path: CV-2021-09.pdf
+resume_path: cv.pdf
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -96,7 +96,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 5
+news_limit: 10
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
