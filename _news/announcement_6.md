@@ -5,5 +5,5 @@ inline: true
 ---
 
 :fire:
-I have <strong>[one paper](http://arxiv.org/abs/xxxxxx)</strong>
+I have <strong>[one paper](http://arxiv.org/abs/2109.14158)</strong>
 accepted to <strong>NeurIPS 2021</strong> as a <strong> Spotlight (acceptance rate 3.0%)</strong>!
