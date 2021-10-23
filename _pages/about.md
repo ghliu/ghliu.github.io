@@ -64,5 +64,5 @@ here (updated in Sep 2021).
       <strong> | </strong>
       <a href="https://github.com/ghliu" target="_blank" title="GitHub"><i class="fab fa-github"></i> ghliu</a>
       <strong> | </strong>
-      <a href="https://twitter.com/GHLiu9138" target="_blank" title="GitHub"><i class="fab fa-twitter"></i> @GHLiu9138</a>
+      <a href="https://twitter.com/guanhorng_liu" target="_blank" title="GitHub"><i class="fab fa-twitter"></i> @guanhorng_liu</a>
 <br><br>

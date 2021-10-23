@@ -21,7 +21,7 @@
       <div class="author">
         {% for author in entry.author_array %}
           {% assign author_is_self = false %}
-          {% if author.last == site.scholar.last_name%}
+          {% if site.scholar.last_name contains author.last%}
             {% if site.scholar.first_name contains author.first%}
               {% assign author_is_self = true %}
             {% endif %}
@@ -48,7 +48,7 @@
                 <em>{{author.first}} {{author.last}}</em>,
               {% else %}
                 {% if coauthor_url %}
-                  <a href="{{coauthor_url}}" target="_blank">{{author.last}}, {{author.first}}</a>,
+                  <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}}</a>,
                 {% else %}
                   {{author.first}} {{author.last}},
                 {% endif %}
@@ -146,12 +146,16 @@
       <p>{{ entry.abstract }}</p>
     </div>
     {% endif %}
-    <!-- Hidden abstract block -->
+    <!-- Hidden bibtex block -->
 
     <div class="cite hidden">
       <p>&#64;{{ entry.type }}&#123;{{ entry.key }},<br>
          &nbsp; title=&#123;{{ entry.title }}&#125;,<br>
-         &nbsp; author=&#123;{{ entry.author }}&#125;,<br>
+         {% if entry.author_bib %}
+            &nbsp; author=&#123;{{ entry.author_bib }}&#125;,<br>
+         {% else %}
+            &nbsp; author=&#123;{{ entry.author }}&#125;,<br>
+         {% endif %}
          {% if entry.type == "article" %}
             &nbsp; journal=&#123;{{ entry.journal }}&#125;,<br>
          {% elsif entry.type == "inproceedings" %}

@@ -47,7 +47,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: ghliu # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: GHLiu9138 # your Twitter handle
+twitter_username: guanhorng_liu # your Twitter handle
 linkedin_username: guanhorngliu # your LinkedIn user name
 scholar_userid: 2Dt0VJ4AAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
@@ -96,7 +96,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 10
+news_limit: 6
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -146,7 +146,7 @@ github: [metadata]
 
 scholar:
 
-  last_name: Liu
+  last_name: [Liu, Liu*]
   first_name: [Guan-Horng, G.H.]
 
   style: apa # elsevier-vancouver
