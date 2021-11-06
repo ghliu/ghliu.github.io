@@ -6,5 +6,5 @@ inline: true
 
 :books:
 Check out our <strong>[latest work](https://arxiv.org/abs/2110.11291)</strong>
-on generalizing score-based models with Schrödinger Bridge!
+on generalizing score-based models with Schrödinger Bridge.
 
