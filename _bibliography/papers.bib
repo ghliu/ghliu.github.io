@@ -1,5 +1,3 @@
----
----
 
 @article{chen2021likelihood,
       abbr={arxiv},
@@ -17,12 +15,11 @@
 
 @inproceedings{liu2021second,
   abbr={NeurIPS 2021},
-  award={(Oral)},
   note={Spotlight presentation (acceptance rate 3.0%)},
 
   title={Second-order Neural ODE Optimizer},
   author={Liu, Guan-Horng and Chen, Tianrong and Theodorou, Evangelos A},
-  booktitle={Conference on Neural Information Processing Systems},
+  booktitle={Advances in Neural Information Processing Systems},
   year={2021},
 
   abstract={We propose a novel second-order optimization framework for training the emerging deep continuous-time models, specifically the Neural Ordinary Differential Equations (Neural ODEs). Since their training already involves expensive gradient computation by solving a backward ODE, deriving efficient second-order methods becomes highly nontrivial. Nevertheless, inspired by the recent Optimal Control (OC) interpretation of training deep networks, we show that a specific continuous-time OC methodology, called Differential Programming, can be adopted to derive backward ODEs for higher-order derivatives at the same O(1) memory cost. We further explore a low-rank representation of the second-order derivatives and show that it leads to efficient preconditioned updates with the aid of Kronecker-based factorization. The resulting method converges much faster than first-order baselines in wall-clock time, and the improvement remains consistent across various applications, e.g. image classification, generative flow, and time-series prediction. Our framework also enables direct architecture optimization, such as the integration time of Neural ODEs, with second-order feedback policies, strengthening the OC perspective as a principled tool of analyzing optimization in deep learning. },
@@ -31,11 +28,11 @@
   code={https://github.com/ghliu/snopt},
   Poster={https://docs.google.com/presentation/d/1-hEST8ya5U8dGydsUc-8ViSh3ZaGPIclalnnRoZlWD8/edit?usp=sharing},
   video={https://neurips.cc/virtual/2021/poster/26474},
+  pdf={https://papers.nips.cc/paper/2021/hash/d4c2e4a3297fe25a71d030b67eb83bfc-Abstract.html},
 }
 
 @inproceedings{liu2021dynamic,
   abbr={ICML 2021},
-  award={(Oral)},
   note={Oral presentation (acceptance rate 3.0%)},
 
   title={Dynamic Game Theoretic Neural Optimizer},
@@ -53,7 +50,6 @@
 
 @inproceedings{liu2021differential,
   abbr={ICLR 2021},
-  award={(Spotlight)},
   note={Spotlight presentation (acceptance rate 3.8%)},
 
   title={DDPNOpt: Differential Dynamic Programming Neural Optimizer},
