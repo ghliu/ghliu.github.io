@@ -139,7 +139,11 @@
       <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Video</a>
     {% endif %}
     {% if entry.talk %}
+      {% if entry.talkSlides contains '://' %}
       <a href="{{ entry.talkSlides }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Talk @ {{entry.talk}}</a>
+      {% else %}
+      <a href="{{ entry.talkSlides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Talk @ {{entry.talk}}</a>
+      {% endif %}
     {% endif %}
     </div>
 
