@@ -29,9 +29,10 @@ layout: default
       {{ content }}
     </div>
 
-    {% if page.news %}
-      {% include news.html %}
-    {% endif %}
+    <hr>
+    {% include news.html %}
+
+    <hr>
 
     {% if page.selected_papers %}
       {% include selected_papers.html %}

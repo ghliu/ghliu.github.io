@@ -2,18 +2,7 @@
 ---
 
 <div class="row">
-  <div class="col-md-2 abbr">
-  {% if entry.abbr %}
-    {% if site.data.venues[entry.abbr] %}
-    <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
-    {% else %}
-    <abbr class="badge">{{entry.abbr}}</abbr>
-    <!-- <div class="award">{{entry.award}}</div> -->
-    {% endif %}
-  {% endif %}
-  </div>
-
-  <div id="{{entry.key}}" class="col-md-9">
+  <div id="{{entry.key}}" class="col-md-12">
     {% if entry.type == "thesis" %}
       {{reference}}
     {% else %}
@@ -55,12 +44,12 @@
               {% endif %}
             {% else %}
               {% if author_is_self %}
-                and <em>{{author.first}} {{author.last}}</em>
+                <em>{{author.first}} {{author.last}}</em>
               {% else %}
                 {% if coauthor_url %}
-                  and <a href="{{coauthor_url}}" target="_blank">{{author.last}}, {{author.first}}</a>
+                  <a href="{{coauthor_url}}" target="_blank">{{author.last}}, {{author.first}}</a>
                 {% else %}
-                  and {{author.first}} {{author.last}}
+                  {{author.first}} {{author.last}}
                 {% endif %}
               {% endif %}
             {% endunless %}
@@ -69,109 +58,40 @@
       </div>
 
       <div class="periodical">
-      {% if entry.avenue_overwrite %}
-        <em>{{entry.avenue_overwrite}}</em>,
-      {% elsif entry.type == "article" %}
-        <em>{{entry.journal}}</em>,
-      {% elsif entry.type == "inproceedings" %}
-        <em>{{entry.booktitle}}</em>,
-      {% endif %}
-      {% if entry.year %}
-        {{entry.year}}
-      {% endif %}
+        {% if entry.type == "article" %}
+          {{entry.journal}},
+        {% elsif entry.type == "inproceedings" %}
+          {{entry.booktitle}},
+        {% endif %}
+        {% if entry.year %}
+          {{entry.year}}
+        {% endif %}
+        {% if entry.award %}
+          <span class="awardNote">&nbsp;&nbsp;[{{entry.award}}]</span>
+        {% endif %}
       </div>
-      {% if entry.note %}
-        <div class="awardNote">{{entry.note}}</div>
-      {% endif %}
     {% endif %}
 
 
 
     <div class="links">
-    <a class="cite btn btn-sm z-depth-0" role="button">bibtex</a>
-    {% if entry.abstract %}
-      <a class="abstract btn btn-sm z-depth-0" role="button">abstract</a>
-    {% endif %}
-    {% if entry.arxiv %}
-      <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
-    {% endif %}
-    {% if entry.html %}
-      <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
-    {% endif %}
-    {% if entry.pdf %}
-      {% if entry.pdf contains '://' %}
-      <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
-      {% else %}
-      <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      {% if entry.arxiv %}
+        <a href="http://arxiv.org/abs/{{ entry.arxiv }}">arxiv</a>
       {% endif %}
-    {% endif %}
-    {% if entry.supp %}
-      {% if entry.supp contains '://' %}
-      <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Supp</a>
-      {% else %}
-      <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Supp</a>
+      {% if entry.code %}
+        | <a href="{{ entry.code }}">code</a>
       {% endif %}
-    {% endif %}
-    {% if entry.blog %}
-      <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Blog</a>
-    {% endif %}
-    {% if entry.code %}
-      <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
-    {% endif %}
-    {% if entry.poster %}
-      {% if entry.poster contains '://' %}
-      <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Poster</a>
-      {% else %}
-      <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Poster</a>
+      {% if entry.project %}
+        | <a href="{{ entry.project }}">project</a>
       {% endif %}
-    {% endif %}
-    {% if entry.slides %}
-      {% if entry.slides contains '://' %}
-      <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
-      {% else %}
-      <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
-      {% endif %}
-    {% endif %}
-    {% if entry.website %}
-      <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
-    {% endif %}
-    {% if entry.video %}
-      <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Video</a>
-    {% endif %}
-    {% if entry.talk %}
+      {% if entry.talk %}
       {% if entry.talkslides contains '://' %}
-      <a href="{{ entry.talkslides }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Talk @ {{entry.talk}}</a>
+        | <a href="{{ entry.talkslides }}">talk ({{entry.talk}})</a>
       {% else %}
-      <a href="{{ entry.talkslides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Talk @ {{entry.talk}}</a>
+        | <a href="{{ entry.talkslides | prepend: '/assets/pdf/' | relative_url }}">talk ({{entry.talk}})</a>
       {% endif %}
-    {% endif %}
-    </div>
-
-    <!-- Hidden abstract block -->
-    {% if entry.abstract %}
-    <div class="abstract hidden">
-      <p>{{ entry.abstract }}</p>
-    </div>
-    {% endif %}
-    <!-- Hidden bibtex block -->
-
-    <div class="cite hidden">
-      <p>&#64;{{ entry.type }}&#123;{{ entry.key }},<br>
-         &nbsp; title=&#123;{{ entry.title }}&#125;,<br>
-         {% if entry.author_bib %}
-            &nbsp; author=&#123;{{ entry.author_bib }}&#125;,<br>
-         {% else %}
-            &nbsp; author=&#123;{{ entry.author }}&#125;,<br>
-         {% endif %}
-         {% if entry.type == "article" %}
-            &nbsp; journal=&#123;{{ entry.journal }}&#125;,<br>
-         {% elsif entry.type == "inproceedings" %}
-            &nbsp; booktitle=&#123;{{ entry.booktitle }}&#125;,<br>
-         {% endif %}
-         &nbsp; year=&#123;{{ entry.year }}&#125;,<br>
-         &#125;
-      </p>
-    </div>
+      {% endif %}
+  </div>
 
   </div>
 </div>

@@ -1,201 +1,103 @@
 
-@article{chen2021likelihood,
-      abbr={arxiv},
-      avenue_overwrite={in submission (* Equal contribution)},
+@inproceedings{gsbm,
+  title={Generalized Schr\"odinger Bridge Matching},
+  author={Liu, Guan-Horng and Lipman, Yaron and Nickel, Maximilian and Karrer, Brian and Theodorou, Evangelos A and Chen, Ricky T. Q.},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2024},
 
-      title={Likelihood Training of Schr\"odinger Bridge using Forward-Backward SDEs Theory},
-      author={Chen*, Tianrong and Liu*, Guan-Horng and Theodorou, Evangelos A},
-      author_bib={Chen, Tianrong and Liu, Guan-Horng and Theodorou, Evangelos A},
+  selected=true,
+  arxiv={2310.02233},
+}
 
-      year={2021},
-      journal={arXiv preprint arXiv:2110.11291},
-      arxiv={2110.11291},
-      abstract={Schrödinger Bridge (SB) is an optimal transport problem that has received increasing attention in deep generative modeling for its mathematical flexibility compared to the Scored-based Generative Model (SGM). However, it remains unclear whether the optimization principle of SB relates to the modern training of deep generative models, which often rely on constructing parameterized log-likelihood objectives.This raises questions on the suitability of SB models as a principled alternative for generative applications. In this work, we present a novel computational framework for likelihood training of SB models grounded on Forward-Backward Stochastic Differential Equations Theory -- a mathematical methodology appeared in stochastic optimal control that transforms the optimality condition of SB into a set of SDEs. Crucially, these SDEs can be used to construct the likelihood objectives for SB that, surprisingly, generalizes the ones for SGM as special cases. This leads to a new optimization principle that inherits the same SB optimality yet without losing applications of modern generative training techniques, and we show that the resulting training algorithm achieves comparable results on generating realistic images on MNIST, CelebA, and CIFAR10.},
+@inproceedings{mdm,
+  title={Mirror Diffusion Models for Constrained and Watermarked Generation},
+  author={Liu, Guan-Horng and Chen, Tianrong and Theodorou<sup>†</sup>, Evangelos and Tao<sup>†</sup>, Molei},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2023},
+
+  selected=true,
+  arxiv={2310.01236},
+  code={https://github.com/ghliu/mdm},
+}
+
+@inproceedings{dmmsb,
+  title={Deep Momentum Multi-Marginal Schr\"odinger Bridge},
+  author={Chen, Tianrong and Liu, Guan-Horng and Tao, Molei and Theodorou, Evangelos},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2023},
+
+  selected=true,
+  arxiv={2303.01751},
+  code={https://github.com/TianrongChen/DMSB},
+}
+
+@inproceedings{i2sb,
+  title={I&#178;SB: Image-to-Image Schr\"odinger Bridge},
+  author={Liu, Guan-Horng and Vahdat, Arash and Huang, De-An and Theodorou, Evangelos and Nie, Weili and Anandkumar, Anima},
+  booktitle={International Conference on Machine Learning (ICML)},
+  year={2023},
+
+  selected=true,
+  arxiv={2302.05872},
+  code={https://github.com/NVlabs/I2SB},
+  project={https://i2sb.github.io/},
+}
+
+@inproceedings{deepgsb,
+ title={{Deep Generalized Schr\"odinger Bridge}},
+  author={Liu, Guan-Horng and Chen, Tianrong and So, Oswin and Theodorou, Evangelos},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2022},
+
+  selected=true,
+  arxiv={2209.09893},
+  code={https://github.com/ghliu/DeepGSB},
+  award={Oral 1.9%}
+}
+
+@inproceedings{sbfbsde,
+  title={Likelihood Training of Schr\"odinger Bridge using Forward-Backward SDEs Theory},
+  author={Chen*, Tianrong and Liu*, Guan-Horng and Theodorou, Evangelos},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2021},
+
+  selected=true,
+  arxiv={2110.11291},
 }
 
 @inproceedings{liu2021second,
-  abbr={NeurIPS 2021},
-  note={Spotlight presentation (acceptance rate 3.0%)},
-
   title={Second-order Neural ODE Optimizer},
-  author={Liu, Guan-Horng and Chen, Tianrong and Theodorou, Evangelos A},
-  booktitle={Advances in Neural Information Processing Systems},
+  author={Liu, Guan-Horng and Chen, Tianrong and Theodorou, Evangelos},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
   year={2021},
 
-  abstract={We propose a novel second-order optimization framework for training the emerging deep continuous-time models, specifically the Neural Ordinary Differential Equations (Neural ODEs). Since their training already involves expensive gradient computation by solving a backward ODE, deriving efficient second-order methods becomes highly nontrivial. Nevertheless, inspired by the recent Optimal Control (OC) interpretation of training deep networks, we show that a specific continuous-time OC methodology, called Differential Programming, can be adopted to derive backward ODEs for higher-order derivatives at the same O(1) memory cost. We further explore a low-rank representation of the second-order derivatives and show that it leads to efficient preconditioned updates with the aid of Kronecker-based factorization. The resulting method converges much faster than first-order baselines in wall-clock time, and the improvement remains consistent across various applications, e.g. image classification, generative flow, and time-series prediction. Our framework also enables direct architecture optimization, such as the integration time of Neural ODEs, with second-order feedback policies, strengthening the OC perspective as a principled tool of analyzing optimization in deep learning. },
+  selected=true,
   arxiv={2109.14158},
-  slides={https://ghliu.github.io/assets/pdf/neurips-snopt-slides.pdf},
   code={https://github.com/ghliu/snopt},
-  Poster={https://docs.google.com/presentation/d/1-hEST8ya5U8dGydsUc-8ViSh3ZaGPIclalnnRoZlWD8/edit?usp=sharing},
-  video={https://neurips.cc/virtual/2021/poster/26474},
-  pdf={https://papers.nips.cc/paper/2021/hash/d4c2e4a3297fe25a71d030b67eb83bfc-Abstract.html},
   talk={DataSig},
   talkslides={snopt-datasig-slides.pdf},
+  award={Spotlight 3.0%}
 }
 
 @inproceedings{liu2021dynamic,
-  abbr={ICML 2021},
-  note={Oral presentation (acceptance rate 3.0%)},
-
   title={Dynamic Game Theoretic Neural Optimizer},
-  author={Liu, Guan-Horng and Chen, Tianrong and Theodorou, Evangelos A},
-  booktitle={International Conference on Machine Learning},
+  author={Liu, Guan-Horng and Chen, Tianrong and Theodorou, Evangelos},
+  booktitle={International Conference on Machine Learning (ICML)},
   year={2021},
 
-  abstract={The connection between training deep neural networks (DNNs) and optimal control theory (OCT) has attracted considerable attention as a principled tool of algorithmic design. Despite few attempts being made, they have been limited to architectures where the layer propagation resembles a Markovian dynamical system. This casts doubts on their flexibility to modern networks that heavily rely on non-Markovian dependencies between layers (e.g. skip connections in residual networks). In this work, we propose a novel dynamic game perspective by viewing each layer as a player in a dynamic game characterized by the DNN itself. Through this lens, different classes of optimizers can be seen as matching different types of Nash equilibria, depending on the implicit information structure of each (p)layer. The resulting method, called Dynamic Game Theoretic Neural Optimizer (DGNOpt), not only generalizes OCT-inspired optimizers to richer network class; it also motivates a new training principle by solving a multi-player cooperative game. DGNOpt shows convergence improvements over existing methods on image classification datasets with residual networks. Our work marries strengths from both OCT and game theory, paving ways to new algorithmic opportunities from robust optimal control and bandit-based optimization. },
+  selected=true,
   arxiv={2105.03788},
-  pdf={http://proceedings.mlr.press/v139/liu21d/liu21d.pdf},
-  Poster={https://docs.google.com/presentation/d/1Pm-5h_0jji6ocsarzhdjXZpBpTtwr9kx44fyyU67hH4/edit?usp=sharing},
-  slides={https://icml.cc/media/icml-2021/Slides/10261.pdf},
-  video={https://icml.cc/virtual/2021/poster/10261},
+  award={Long talk 3.0%}
 }
+
 
 @inproceedings{liu2021differential,
-  abbr={ICLR 2021},
-  note={Spotlight presentation (acceptance rate 3.8%)},
-
   title={DDPNOpt: Differential Dynamic Programming Neural Optimizer},
-  author={Liu, Guan-Horng and Chen, Tianrong and Theodorou, Evangelos A},
-  booktitle={International Conference on Learning Representations},
+  author={Liu, Guan-Horng and Chen, Tianrong and Theodorou, Evangelos},
+  booktitle={International Conference on Learning Representations (ICLR)},
   year={2021},
 
-  abstract={Interpretation of Deep Neural Networks (DNNs) training as an optimal control problem with nonlinear dynamical systems has received considerable attention recently, yet the algorithmic development remains relatively limited. In this work, we make an attempt along this line by reformulating the training procedure from the trajectory optimization perspective. We first show that most widely-used algorithms for training DNNs can be linked to the Differential Dynamic Programming (DDP), a celebrated second-order method rooted in the Approximate Dynamic Programming. In this vein, we propose a new class of optimizer, DDP Neural Optimizer (DDPNOpt), for training feedforward and convolution networks. DDPNOpt features layer-wise feedback policies which improve convergence and reduce sensitivity to hyper-parameter over existing methods. It outperforms other optimal-control inspired training methods in both convergence and complexity, and is competitive against state-of-the-art first and second order methods. We also observe DDPNOpt has surprising benefit in preventing gradient vanishing. Our work opens up new avenues for principled algorithmic design built upon the optimal control theory.},
-  pdf={https://openreview.net/pdf?id=6s7ME_X5_Un},
+  selected=true,
   arxiv={2002.08809},
-  Poster={https://docs.google.com/presentation/d/1OBW4bXZMDp27smv0za15EjnOV07jC1TpIwA0ww-vlyM/edit?usp=sharing},
-  slides={https://ghliu.github.io/assets/pdf/iclr-ddpnopt-slides.pdf},
-  video={https://iclr.cc/virtual/2021/spotlight/3512},
-}
-
-
-@article{evans2021spatio,
-  abbr={arxiv},
-  avenue_overwrite={arXiv preprint (in submission)},
-
-  title={Spatio-Temporal Differential Dynamic Programming for Control of Fields},
-  author={Evans, Ethan N and So, Oswin and Kendall, Andrew P and Liu, Guan-Horng and Theodorou, Evangelos A},
-  journal={arXiv preprint arXiv:2104.04044},
-  year={2021},
-
-  abstract={We consider the optimal control problem of a general nonlinear spatio-temporal system described by Partial Differential Equations (PDEs). Theory and algorithms for control of spatio-temporal systems are of rising interest among the automatic control community and exhibit numerous challenging characteristic from a control standpoint. Recent methods focus on finite-dimensional optimization techniques of a discretized finite dimensional ODE approximation of the infinite dimensional PDE system. In this paper, we derive a differential dynamic programming (DDP) framework for distributed and boundary control of spatio-temporal systems in infinite dimensions that is shown to generalize both the spatio-temporal LQR solution, and modern finite dimensional DDP frameworks. We analyze the convergence behavior and provide a proof of global convergence for the resulting system of continuous-time forward-backward equations. We explore and develop numerical approaches to handle sensitivities that arise during implementation, and apply the resulting STDDP algorithm to a linear and nonlinear spatio-temporal PDE system. Our framework is derived in infinite dimensional Hilbert spaces, and represents a discretization-agnostic framework for control of nonlinear spatio-temporal PDE systems.},
-  arxiv={2104.04044},
-}
-
-@inproceedings{wang2021variational,
-  abbr={RSS 2021},
-
-  title={Variational Inference MPC using Tsallis Divergence},
-  author={Wang, Ziyi and So, Oswin and Gibson, Jason and Vlahov, Bogdan and Gandhi, Manan S and Liu, Guan-Horng and Theodorou, Evangelos A},
-  booktitle={Robotics: Science and Systems},
-  year={2021},
-
-  abstract={In this paper, we provide a generalized framework for Variational Inference-Stochastic Optimal Control by using thenon-extensive Tsallis divergence. By incorporating the deformed exponential function into the optimality likelihood function, a novel Tsallis Variational Inference-Model Predictive Control algorithm is derived, which includes prior works such as Variational Inference-Model Predictive Control, Model Predictive PathIntegral Control, Cross Entropy Method, and Stein VariationalInference Model Predictive Control as special cases. The proposed algorithm allows for effective control of the cost/reward transform and is characterized by superior performance in terms of mean and variance reduction of the associated cost. The aforementioned features are supported by a theoretical and numerical analysis on the level of risk sensitivity of the proposed algorithm as well as simulation experiments on 5 different robotic systems with 3 different policy parameterizations.},
-  arxiv={2104.00241},
-}
-
-@article{liu2020differential,
-  abbr={arxiv},
-  avenue_overwrite={arXiv preprint},
-
-  title={A Differential Game Theoretic Neural Optimizer for Training Residual Networks},
-  author={Liu, Guan-Horng and Chen, Tianrong and Theodorou, Evangelos A},
-  journal={arXiv preprint arXiv:2007.08880},
-  year={2020},
-
-  abstract={Connections between Deep Neural Networks (DNNs) training and optimal control theory has attracted considerable attention as a principled tool of algorithmic design. Differential Dynamic Programming (DDP) neural optimizer is a recently proposed method along this line. Despite its empirical success, the applicability has been limited to feedforward networks and whether such a trajectory-optimization inspired framework can be extended to modern architectures remains unclear. In this work, we derive a generalized DDP optimizer that accepts both residual connections and convolution layers. The resulting optimal control representation admits a game theoretic perspective, in which training residual networks can be interpreted as cooperative trajectory optimization on state-augmented dynamical systems. This Game Theoretic DDP (GT-DDP) optimizer enjoys the same theoretic connection in previous work, yet generates a much complex update rule that better leverages available information during network propagation. Evaluation on image classification datasets (e.g. MNIST and CIFAR100) shows an improvement in training convergence and variance reduction over existing methods. Our approach highlights the benefit gained from architecture-aware optimization.},
-  arxiv={2007.08880},
-}
-
-@article{liu2019deep,
-  abbr={arxiv},
-  avenue_overwrite={arXiv preprint (in submission)},
-
-  title={Deep learning theory review: An optimal control and dynamical systems perspective},
-  author={Liu, Guan-Horng and Theodorou, Evangelos A},
-  journal={arXiv preprint arXiv:1908.10920},
-  year={2019},
-
-  abstract={Attempts from different disciplines to provide a fundamental understanding of deep learning have advanced rapidly in recent years, yet a unified framework remains relatively limited. In this article, we provide one possible way to align existing branches of deep learning theory through the lens of dynamical system and optimal control. By viewing deep neural networks as discrete-time nonlinear dynamical systems, we can analyze how information propagates through layers using mean field theory. When optimization algorithms are further recast as controllers, the ultimate goal of training processes can be formulated as an optimal control problem. In addition, we can reveal convergence and generalization properties by studying the stochastic dynamics of optimization algorithms. This viewpoint features a wide range of theoretical study from information bottleneck to statistical physics. It also provides a principled way for hyper-parameter tuning when optimal control theory is introduced. Our framework fits nicely with supervised learning and can be extended to other learning problems, such as Bayesian learning, adversarial training, and specific forms of meta learning, without efforts. The review aims to shed lights on the importance of dynamics and optimal control when developing deep learning theory. },
-  arxiv={1908.10920},
-  code={https://github.com/ghliu/mean-field-fcdnn},
-}
-
-@inproceedings{liu2017learning,
-  abbr={CoRL 2017},
-
-  title={Learning end-to-end multimodal sensor policies for autonomous navigation},
-  author={Liu, Guan-Horng and Siravuru, Avinash and Prabhakar, Sai and Veloso, Manuela and Kantor, George},
-  booktitle={Conference on Robot Learning},
-  pages={249--261},
-  year={2017},
-  organization={PMLR},
-
-  abstract={Multisensory polices are known to enhance both state estimation and target tracking. However, in the space of end-to-end sensorimotor control, this multi-sensor outlook has received limited attention. Moreover, systematic ways to make policies robust to partial sensor failure are not well explored. In this work, we propose a specific customization of Dropout, called \textit{Sensor Dropout}, to improve multisensory policy robustness and handle partial failure in the sensor-set. We also introduce an additional auxiliary loss on the policy network in order to reduce variance in the band of potential multi- and uni-sensory policies to reduce jerks during policy switching triggered by an abrupt sensor failure or deactivation/activation. Finally, through the visualization of gradients, we show that the learned policies are conditioned on the same latent states representation despite having diverse observations spaces - a hallmark of true sensor-fusion. Simulation results of the multisensory policy, as visualized in TORCS racing game, can be seen here: this https URL.},
-  arxiv={1705.10422},
-  pdf={http://proceedings.mlr.press/v78/liu17a/liu17a.pdf},
-  video={https://www.youtube.com/watch?v=QAK2lcXjNZc},
-}
-
-@article{liu2017high,
-  abbr={CMU Thesis},
-
-  title={High Dimensional Planning and Learning for Off-Road Driving},
-  author={Liu, Guan-Horng},
-  journal={CMU Robotics Institute Master Thesis},
-  year={2017},
-  publisher={CMU},
-
-  pdf={https://www.ri.cmu.edu/wp-content/uploads/2017/07/Guan-Horng-Liu-thesis.pdf},
-}
-
-@article{liu2017high,
-  abbr={RLDM 2017},
-
-  title={Multi-modal Deep Reinforcement Learning with a Novel Sensor-based Dropout},
-  author={Liu, Guan-Horng and Siravuru, Avinash and Prabhakar, Sai and Kantor, George and Veloso, Manuela},
-  journal={Multi-disciplinary Conference on Reinforcement Learning and Decision Making},
-  year={2017},
-
-  pdf={https://ghliu.github.io/assets/pdf/2017RLDM.pdf},
-}
-
-@article{liu2014bio,
-  abbr={JBE 2014},
-
-  title={A bio-inspired hopping kangaroo robot with an active tail},
-  author={Liu, Guan-Horng and Lin, Hou-Yi and Lin, Huai-Yu and Chen, Shao-Tuan and Lin, Pei-Chun},
-  journal={Journal of Bionic Engineering},
-  volume={11},
-  number={4},
-  pages={541--555},
-  year={2014},
-  publisher={Springer},
-
-  pdf={http://biorola.me.ntu.edu.tw/pdf/Journal%20papers/2014%20JBE.pdf},
-}
-
-@article{liu2014auto,
-  abbr={RSJ 2014},
-
-  title={Autonomous Control of the WAM-V Catamaran Type Unmanned Surface Vehicle: Propulsion System Design},
-  author={Liu, Guan-Horng and YASUTOMI, Andre Yuji and HOLGADO, Alexis and FUKUSHIMA, Edwardo F},
-  journal={Annual Conference of the Robotics Society of Japan},
-  year={2014},
-
-  pdf={https://ghliu.github.io/assets/pdf/2014RSJ.pdf},
-}
-
-@inproceedings{liu2013design,
-  abbr={SII 2013},
-  award={(Best Paper)},
-  note={Best Paper Award},
-
-  title={Design of a kangaroo robot with dynamic jogging locomotion},
-  author={Liu, Guan-Horng and Lin, Hou-Yi and Lin, Huai-Yu and Chen, Shao-Tuan and Lin, Pei-Chun},
-  booktitle={Proceedings of the 2013 IEEE/SICE International Symposium on System Integration},
-  pages={306--311},
-  year={2013},
-  organization={IEEE},
-
-  pdf={http://peichunlin.me.ntu.edu.tw/Homepage/research/Publication/Conference%20proceedings/2013%20SII.pdf},
+  award={Spotlight 3.8%}
 }

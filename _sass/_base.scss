@@ -2,6 +2,17 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+body {
+  font-family: IBM Plex Sans, sans-serif;
+  padding-bottom: 50px;
+  font-size: 100%;
+  line-height: 1.3em;
+  letter-spacing: -0.15pt;
+}
+
+hr { background: #80808083; margin: 10px 0 10px 0; padding: 1px 0 0 0; max-width: 900px; }
+
+
 // Typography
 
 p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
@@ -422,8 +433,8 @@ footer.sticky-bottom {
         }
       }
       .title {
-        font-weight: bolder;
-        font-size: 1.15rem;
+        font-weight: 500;
+        font-size: 1.1rem;
       }
       .author {
         font-size: 1.0rem;
@@ -435,26 +446,30 @@ footer.sticky-bottom {
           }
         }
         > em {
-          border-bottom: 1px solid;
+          font-size: 1rem;
           font-style: normal;
           /* color: $custom-color-green; */
-          color: $blue-color-dark;
-          font-weight: bolder;
+          color: $blue-color;
+          font-weight: 400;
         }
       }
       .periodical{
-        color: $custom-color-blue;
+        font-size: 1rem;
+        color: #727272;
         > em {
           color: $custom-color-blue;
         }
       }
       .awardNote{
-        color: $red-color-dark;
+        color: #c50000;
         font-weight: bolder;
-        font-size: 0.98rem;
+        font-size: 1rem;
       }
       .links {
-        font-size: 1.05rem;
+        font-size: 1rem;
+        a {
+          color: $blue-color-dark;
+        }
         a.btn {
           text-transform: lowercase;
           font-size: 0.8rem;
