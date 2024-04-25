@@ -146,7 +146,7 @@ github: [metadata]
 
 scholar:
 
-  last_name: [Liu, Liu*]
+  last_name: [Liu, Liu*, Liu<sup>‡</sup>]
   first_name: [Guan-Horng, G.H.]
 
   style: apa # elsevier-vancouver
