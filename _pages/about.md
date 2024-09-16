@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 description: >
-  <h6>Machine Learning PhD @ Georgia Tech 🚀</h6><br>
+  <h6>Research Scientist @ FAIR (Meta AI)</h6><br>
 
 publications_test: true
 years: 1950
@@ -22,7 +22,7 @@ social: false  # includes social icons at the bottom of the page
 
 <p></p>
 
-Hi, I am Guan-Horng Liu (I go by <strong>&quot;Guan&quot;</strong>), a final-year Machine Learning PhD in Georgia Tech.
+Hi, I am Guan-Horng Liu (I go by <strong>&quot;Guan&quot;</strong>), a Research Scientist in FAIR, NYC.
 
 
 I study <strong>fundamental algorithms for learning diffusion models with optimality structures</strong>.
@@ -66,11 +66,11 @@ See my
 <b>
     <a href="{{ site.resume_path | prepend: 'https://ghliu.github.io/assets/pdf/' }}" target="_blank">full CV</a>
 </b>
-here (updated in May 2024).
+here (updated in Sep 2024).
 
 
 <strong>Contact: </strong>
-      ghliu [at] gatech [dot] edu
+      ghliu [at] meta [dot] com
 <br>
 <strong>Follow: </strong>
       <a href="https://scholar.google.com/citations?user=2Dt0VJ4AAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i> Google Scholar</a>
