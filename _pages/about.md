@@ -66,7 +66,7 @@ See my
 <b>
     <a href="{{ site.resume_path | prepend: 'https://ghliu.github.io/assets/pdf/' }}" target="_blank">full CV</a>
 </b>
-here (updated in Sep 2024).
+here (updated in June 2025).
 
 
 <strong>Contact: </strong>
