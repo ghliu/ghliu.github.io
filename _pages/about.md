@@ -34,16 +34,14 @@ and large-scale methods for applications in
 <a href="https://arxiv.org/abs/2310.01236" target="_blank">watermarked generation</a>,
 <a href="https://arxiv.org/abs/2209.09893" target="_blank">opinion depolarization</a>, and
 <a href="https://arxiv.org/abs/2303.01751" target="_blank">single-cell RNA sequencing</a>.
-Prior to this, I worked on robust architecture-aware neural optimizers.
+<!-- Prior to this, I worked on robust architecture-aware neural optimizers. -->
 
 
-I’m generally interested in integrating optimality/domain structures into diffusion and flow models, with the goals of enhancing
-theoretical understanding and developing large-scale algorithms for novel applications.
-In terms of fundamental research, I combine dynamic optimal transport, stochastic optimal control, and statistical physics.
-I enjoy applying these tools to a variety of scientific and machine learning problems.
+I’m generally interested in integrating optimality/domain structures into diffusion and flow models, with the goals of enhancing theoretical understanding and developing large-scale algorithms for novel applications.
+In terms of fundamental research, I combine dynamic optimal transport, stochastic optimal control, and statistical physics. I enjoy applying these tools to a variety of scientific and machine learning problems.
 
 
-I’m extremely fortunate to intern in FAIR Lab, Meta and Nvidia Research during 2023 and 2022 Summer,
+<!-- I’m extremely fortunate to intern in FAIR Lab, Meta and Nvidia Research during 2023 and 2022 Summer,
 working with
 many talented researchers, including
 (FAIR)
@@ -59,14 +57,14 @@ many talented researchers, including
 (Google DeepMind) <a href="https://vdeborto.github.io/" target="_blank">Valentin De Bortoli</a>,
 and (Georgia Tech) <a href="https://mtao8.math.gatech.edu/" target="_blank">Molei Tao</a>.
 In Georgia Tech, I am advised by
-<a href="https://scholar.google.com/citations?user=dG9MV7oAAAAJ&amp;hl=en" target="_blank">Evangelos Theodorou</a>.
+<a href="https://scholar.google.com/citations?user=dG9MV7oAAAAJ&amp;hl=en" target="_blank">Evangelos Theodorou</a>. -->
 
 
 See my
 <b>
     <a href="{{ site.resume_path | prepend: 'https://ghliu.github.io/assets/pdf/' }}" target="_blank">full CV</a>
 </b>
-here (updated in July 2025).
+here (updated in Sep 2025).
 
 
 <strong>Contact: </strong>
