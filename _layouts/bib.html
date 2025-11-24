@@ -76,20 +76,16 @@
 
     <div class="links">
       {% if entry.arxiv %}
-        <a href="http://arxiv.org/abs/{{ entry.arxiv }}">arxiv</a>
+        <a href="http://arxiv.org/abs/{{ entry.arxiv }}">paper</a>
       {% endif %}
       {% if entry.code %}
         | <a href="{{ entry.code }}">code</a>
       {% endif %}
+      {% if entry.slides %}
+        | <a href="{{ entry.slides }}">slides</a>
+      {% endif %}
       {% if entry.project %}
         | <a href="{{ entry.project }}">project</a>
-      {% endif %}
-      {% if entry.talk %}
-      {% if entry.talkslides contains '://' %}
-        | <a href="{{ entry.talkslides }}">talk ({{entry.talk}})</a>
-      {% else %}
-        | <a href="{{ entry.talkslides | prepend: '/assets/pdf/' | relative_url }}">talk ({{entry.talk}})</a>
-      {% endif %}
       {% endif %}
   </div>
 
