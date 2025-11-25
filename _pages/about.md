@@ -94,5 +94,5 @@ You can find more details in my
       <strong> | </strong>
       <a href="https://github.com/ghliu" target="_blank" title="GitHub"><i class="fab fa-github"></i> ghliu</a>
       <strong> | </strong>
-      <a href="https://twitter.com/guanhorng_liu" target="_blank" title="GitHub"> 𝕏 @guanhorng_liu</a>
+      <a href="https://x.com/guanhorng_liu" target="_blank" title="GitHub"> 𝕏 @guanhorng_liu</a>
 <br><br>
