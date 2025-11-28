@@ -66,7 +66,7 @@ My research has led to large-scale applications in
 
 My research has received multiple recognitions, including
 5+ Oral/Spotlight presentations
-<span style="color: #9c9c9cff;">[ranked top 3%]</span>
+<span style="color: #9c9c9cff;">[accept rate ≤ 3%]</span>
 in major ML conferences (ICLR, ICML, NeurIPS), cover feature in
 <a href="https://www.nature.com/natmachintell/volumes/7/issues/4" target="_blank">Nature Machine Intelligence</a>,
 coverage in
