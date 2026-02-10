@@ -30,9 +30,9 @@ Data-driven methods such as <strong>Schrödinger bridges</strong>
 have advanced diffusion models with optimality structures and physics priors.
 Data-efficient methods like <strong>adjoint-based diffusion samples</strong>
 [<a href="https://arxiv.org/abs/2506.22565" target="_blank">ASBS</a>,
-<a href="https://arxiv.org/abs/TODO" target="_blank">DAM</a>]
+<a href="https://arxiv.org/abs/2602.07132" target="_blank">DAM</a>]
 have enabled scientific exploration driven by reward and energy functions.
-Lately, I've been exploring <strong>scientific reasoning in (d)LLMs</strong>.
+Lately, I've been exploring <strong>RL science in post-training LLMs</strong>.
 
 
 
@@ -41,7 +41,7 @@ My research has led to large-scale applications in
 <ul style="margin-top: -10px; margin-left: 10px; padding-left: 15px;">
   <li>
     <strong>Generative AI:</strong>
-    <a href="https://arxiv.org/abs/TODO" target="_blank">mathematical reasoning</a>,
+    <a href="https://arxiv.org/abs/2602.07132" target="_blank">mathematical reasoning</a>,
     <a href="https://arxiv.org/abs/2110.11291" target="_blank">image generation</a> &
     <a href="https://arxiv.org/abs/2302.05872" target="_blank">restoration</a> &
     <a href="https://arxiv.org/abs/2310.02233" target="_blank">unsupervised translation</a>,
