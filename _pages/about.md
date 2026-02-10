@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 description: >
-  <h6>Research Scientist @ FAIR</h6> <br>
+  <h6>Research Scientist @ Meta Superintelligence Labs (MSL)</h6> <br>
 
 publications_test: true
 years: 1950
